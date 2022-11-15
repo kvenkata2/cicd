@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     container: node:12.18.4
     steps:
-      - name: Check Node. js version
+      - name: Check Node.js version
         run: node --version
       - name: Check NPM version
         run: npm --version
@@ -15,4 +15,4 @@ jobs:
       - name: Install NPM dependencies
         run: npm install
       - name: Execute Node application
-        run: node index.js
+        run: node ../../index.js 
