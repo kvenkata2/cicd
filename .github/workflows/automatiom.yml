@@ -1,5 +1,8 @@
 name: Test Node with workflow
-on: push
+on:
+  push:
+    branches:
+      - main
 jobs:
   first-job:
     name: Build with Node
