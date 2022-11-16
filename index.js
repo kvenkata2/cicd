@@ -1,3 +1,3 @@
 var moment = require('moment')
 var date = moment().format('LL')
-console.log("hello newcross")
+console.log("hello world")
